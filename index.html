@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Careers – Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Careers at DemoCorp</h1>
+    <p>Join our team and build the future with us.</p>
+  </header>
+
+  <main>
+    <section class="job">
+      <h2>Backend Development – Finance Department</h2>
+      <p>We are looking for a backend developer to join our Finance IT team.</p>
+      
+      <form id="jobForm">
+        <label>
+          Full Name:
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          Email:
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Phone Number:
+          <input type="tel" name="phone" required>
+        </label>
+        <label>
+          Upload Photo:
+          <input type="file" name="photo" accept="image/*">
+        </label>
+        <label>
+          Upload CV:
+          <input type="file" name="cv" accept=".pdf,.doc,.docx">
+        </label>
+        <button type="submit">Apply Now</button>
+      </form>
+
+      <div id="response"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
